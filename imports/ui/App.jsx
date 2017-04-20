@@ -14,7 +14,7 @@ const styles = {
     backgroundColor: 'green',
     textAlign: 'center',
     color: 'white',
-    width: '300px'
+    width: '350px'
   }
 }
 // App component - represents the whole app
