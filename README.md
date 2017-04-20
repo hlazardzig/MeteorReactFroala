@@ -14,26 +14,26 @@
 
 Require and use Froala Editor component inside your application almost as described in the <a href="https://www.froala.com/wysiwyg-editor/docs/framework-plugins/react">Froala documentation</a>:
 
-	import React, { Component } from 'react'
-	import ReactDOM from 'react-dom'
-	
-	// Require Editor JS files.
-	require('froala-editor/js/froala_editor.pkgd.min.js')($)
-	import 'froala-editor/css/froala_editor.pkgd.min.css'
-	
-	import FroalaEditor from 'react-froala-wysiwyg'
-	
-	export default class App extends Component {
-	  render() {
-   		return (
+  import React, { Component } from 'react'
+  import ReactDOM from 'react-dom'
+  
+  // Require Editor JS files.
+  require('froala-editor/js/froala_editor.pkgd.min.js')($)
+  import 'froala-editor/css/froala_editor.pkgd.min.css'
+  
+  import FroalaEditor from 'react-froala-wysiwyg'
+  
+  export default class App extends Component {
+    render() {
+       return (
         <div className='mainApp'>
           <FroalaEditor
             tag='textarea'
           />
         </div>
-    	)   
+      )   
     }
-	}
+  }
 
 Note two things:
 
