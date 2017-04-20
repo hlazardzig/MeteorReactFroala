@@ -26,13 +26,13 @@ Require and use Froala Editor component inside your application almost as descri
 	export default class App extends Component {
 	  render() {
    		return (
-      	  <div className='mainApp'>
-            <FroalaEditor
-              tag='textarea'
-            />
-      	  </div>
+        <div className='mainApp'>
+          <FroalaEditor
+            tag='textarea'
+          />
+        </div>
     	)   
-  	  }
+    }
 	}
 
 Note two things:
