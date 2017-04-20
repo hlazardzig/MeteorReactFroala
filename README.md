@@ -7,7 +7,7 @@
     $ cd MeteorReactFroala/
     $ meteor npm install
     $ meteor npm install --save react react-dom
-    $ meteor npm install react-froala-wysiwyg --save
+    $ meteor npm install --save react-froala-wysiwyg
     $ meteor add fortawesome:fontawesome
 
 ### Usage
